@@ -10,9 +10,9 @@ npm install
 npm run serve
 ```
 
-This runs a hot-reloading web server in your terminal. Go to `localhost:8080` in your browser to see the site.
+This installs all dependencies and runs a hot-reloading web server in your terminal. Go to `localhost:8080` in your browser to see the site.
 
-To fully build the site into HTML for production, use `npm run build`.
+To run the development server, use just `npm run serve`. To fully build the site into HTML for production, use `npm run build`. To see all project scripts, use `npm run`.
 
 ## Project Structure
 
