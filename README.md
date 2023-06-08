@@ -1,19 +1,5 @@
 # Team Site
 
-## A Note on Using Tailwind CSS
-
-Right now, I haven't integrated the Tailwind CSS build commands into `npm run serve` and `npm run build`. So the current way to run the project for testing goes like this:
-
-```
-# In a first terminal window
-npx tailwindcss -i ./src/css/input.css -o ./public/css/style.css --watch
-
-# In a second terminal window
-npm run serve
-```
-
-This will be improved once I wrangle `npm` into running both commands in parallel.
-
 ## Installation and Running the Project
 
 - Install `npm` using your preferred method.
@@ -27,6 +13,8 @@ npm run serve
 This installs all dependencies and runs a hot-reloading web server in your terminal. Go to `localhost:8080` in your browser to see the site.
 
 To run the development server, use just `npm run serve`. To fully build the site into HTML for production, use `npm run build`. To see all project scripts, use `npm run`.
+
+`npm run serve` also runs the TailwindCSS CLI in watch mode, which means Tailwind classes work properly in development. You'll see Tailwind updating the built CSS as you work, since Tailwind only injects the classes we use and leaves out the rest.
 
 ## Project Structure
 
