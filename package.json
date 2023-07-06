@@ -6,7 +6,7 @@
   "scripts": {
     "build": "npx @11ty/eleventy",
     "dev:11ty": "npx @11ty/eleventy --serve",
-    "dev:tailwind": "npx tailwindcss -i ./src/css/input.css -o ./public/css/style.css --watch",
+    "dev:tailwind": "npx tailwindcss -i ./src/css/tailwind.css -o ./public/css/tailwind.css --watch",
     "serve": "npm-run-all --parallel dev:*"
   },
   "author": "UM iGEM Team",

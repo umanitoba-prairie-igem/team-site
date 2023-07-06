@@ -1,6 +1,7 @@
 module.exports = function (eleventyConfig) {
 	// copy our stylesheet into the site build
 	eleventyConfig.addPassthroughCopy ("./src/assets/*");
+	eleventyConfig.addPassthroughCopy ("./src/css/style.css");
 
 	return {
 		dir: {
