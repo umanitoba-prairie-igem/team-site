@@ -9,7 +9,7 @@ layout: "base.html"
 
 <!-- {% endfor %} -->
 
-Hello from Prairie iGEM!
+# Hello from Prairie iGEM!
 
 \<Insert team description here>
 
