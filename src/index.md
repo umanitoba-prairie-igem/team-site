@@ -11,6 +11,4 @@ layout: "base.html"
 
 # Hello from Prairie iGEM!
 
-\<Insert team description here>
-
-\<Maybe some nice photos of our team>
+The team description will go here, along with some nice images to share with the world.
