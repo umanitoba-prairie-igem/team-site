@@ -2,7 +2,7 @@
 
 ## Installation and Running the Project
 
-- Install `npm` using your preferred method.
+- Install `npm` using your preferred method (requires Node version > 14)
 - In the terminal, `cd` into the project folder and run the following:
 
 ```
