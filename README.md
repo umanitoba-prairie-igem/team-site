@@ -21,19 +21,24 @@ To run the development server, use just `npm run serve`. To fully build the site
 All our source files live in `src`. Here's the structure of that:
 
 ```
-src/
+src
 ├── _includes
-│   ├── base.html           # The template for every page, written in HTML and LiquidJS
-│   ├── footer.html
-│   └── navbar.html         # Top of every page, navigation links
+│   ├── base.html               # base template for all pages
+│   └── footer.html
+├── assets                      # images go in this folder
+│   └── prairie-igem-logo.png
 ├── css
-│   ├── style.css           # Right now our only css file
-├── index.html              # Landing page, written in HTML and LiquidJS
-└── pages                   # Pages listed on landing page
+│   ├── style.css
+│   └── tailwind.css
+├── index.md                    # main landing page
+└── pages                       # all other pages go in this folder
     ├── About.md
     ├── Contact.md
     ├── Resources.md
-    └── pages.json          # Adds properties to all pages, used for listing all pages
+    └── pages.json
+
+5 directories, 10 files
+
 ```
 
 Output from `npm run build` goes into `public/`.
