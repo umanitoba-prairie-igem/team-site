@@ -47,10 +47,18 @@
 		<main>
 
 			<!-- content of main page -->
-			<div class="container">
+			<div class="container pb-5">
 				{{ content }}
 			</div>
+			<!-- jank extra space -->
+			<div class="pb-5">
+			</div>
+
 			<!-- content end -->
+
+			<!-- footer -->
+			{% include 'footer.html' %}
+			<!-- footer end -->
 
 		</main>
 	</body>
