@@ -36,9 +36,6 @@ src
     ├── Contact.md
     ├── Resources.md
     └── pages.json
-
-5 directories, 10 files
-
 ```
 
 Output from `npm run build` goes into `public/`.
