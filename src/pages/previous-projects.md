@@ -4,4 +4,16 @@ title: "Previous Projects"
 
 # {{ title }}
 
-Last year, the Prairie IGEM team was formed and entered the competition for the first time. We designed a biosensor that could sense zebra mussels and release toxins with a goal to ultimately eradicate zebra mussels in Lake Winnipeg and Manitoba freshwater bodies and minimize harm to the environment and economy. In the early stages, the team earned a prestigious $2,500 impact grant. Presenting the project at the iGEM Grand Jamboree in Paris we earned a silver medal.
+---
+
+## 2023 – Fantastic Plastic (Degradation)
+
+TBD
+
+## 2022 – Zebra Zap
+
+\<image of last year's team or project>
+
+Prairie iGEM's first project was a biosensor that detected zebra mussels, an invasive species in Manitoba, and released targeted toxins to eradicate the zebra mussels without damaging the environment.
+
+Read more at our [2022 Project Wiki](https://2022.igem.wiki/umanitoba/index.html).
