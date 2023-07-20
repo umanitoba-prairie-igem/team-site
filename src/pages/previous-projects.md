@@ -4,9 +4,10 @@ title: "Previous Projects"
 
 ---
 
-## 2023 – Fantastic Plastic (Degradation)
+## 2023 – PLAnet Zero
 
 TBD
+\<cover image>
 
 ## 2022 – Zebra Zap
 
