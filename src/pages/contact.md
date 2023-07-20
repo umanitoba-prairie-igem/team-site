@@ -1,3 +1,5 @@
 ---
-Title: "Get in Touch"
+title: "Get in Touch"
 ---
+
+# {{ title }}
