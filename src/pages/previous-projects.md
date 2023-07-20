@@ -2,8 +2,6 @@
 title: "Previous Projects"
 ---
 
-# {{ title }}
-
 ---
 
 ## 2023 – Fantastic Plastic (Degradation)

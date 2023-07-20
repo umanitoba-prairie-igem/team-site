@@ -1,8 +1,6 @@
 ---
-title: "Get in Touch"
+title: "Contact"
 ---
-
-# {{ title }}
 
 <form name="contact" method="POST" netlify>
   <input type="hidden" name="subject" value="New Contact from iGEM Team Site">
