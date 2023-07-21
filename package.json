@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build:11ty": "npx @11ty/eleventy",
-    "build:tailwind": "npx tailwindcss -o build.css --minify",
+    "build:tailwind": "npx tailwindcss -o tailwind.css --minify",
     "dev:11ty": "npx @11ty/eleventy --serve",
     "dev:tailwind": "npx tailwindcss -i ./src/css/tailwind.css -o ./public/css/tailwind.css --watch",
     "serve": "npm-run-all --parallel dev:*",
