@@ -6,16 +6,12 @@ layout: "base.html"
 <!-- stack all pages in order -->
 
 {% for page in collections.sortedPages %}
-
-
 <div>
-	<h2>
+	<h2 id="{{ page.fileSlug }}">
 		{{ page.data.title }}
 	</h2>
 </div>
-
 <div>
 {{ page.content }}
 </div>
-
 {% endfor %}
