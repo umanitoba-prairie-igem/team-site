@@ -1,7 +1,6 @@
 ---
 title: "Previous Projects"
----
-
+position: "3"
 ---
 
 ## 2023 – PLAnet Zero

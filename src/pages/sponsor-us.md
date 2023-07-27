@@ -1,5 +1,6 @@
 ---
 title: "Sponsor Us"
+position: "4"
 ---
 
 We need sponsors to fund our research and participation in the iGEM competition. Interested? Get in touch!

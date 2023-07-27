@@ -1,5 +1,6 @@
 ---
 title: "Contact"
+position: "6"
 ---
 
 <form name="contact" method="POST" netlify>

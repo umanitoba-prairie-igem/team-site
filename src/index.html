@@ -1,0 +1,21 @@
+---
+title: "Prairie iGEM"
+layout: "base.html"
+---
+
+<!-- stack all pages in order -->
+
+{% for page in collections.sortedPages %}
+
+
+<div>
+	<h2>
+		{{ page.data.title }}
+	</h2>
+</div>
+
+<div>
+{{ page.content }}
+</div>
+
+{% endfor %}

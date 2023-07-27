@@ -3,6 +3,11 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addPassthroughCopy ("./src/assets/*");
 	eleventyConfig.addPassthroughCopy ("./src/css/style.css");
 
+	eleventyConfig.addCollection("sortedPages", function(collectionApi) {
+		return collectionApi.getFilteredByTag("page")
+			.sort((a, b) => a.data.position - b.data.position);
+	});
+
 	return {
 		dir: {
 			input: "src",
