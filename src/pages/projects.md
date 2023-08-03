@@ -19,4 +19,4 @@ Read more at our 2022 Project Wiki.
   </button>
 </div>
 
-<img src="/assets/2022-team-photo.jpg" class="img-fluid"/>
+<img src="/assets/2022-team-photo.jpg" class="img-fluid rounded"/>
