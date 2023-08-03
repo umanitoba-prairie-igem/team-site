@@ -7,9 +7,10 @@ layout: "base.html"
 
 {% for page in collections.sortedPages %}
 <div>
-	<h2 id="{{ page.fileSlug }}">
+	<h2 id="{{ page.fileSlug }}" class="pt-5">
 		{{ page.data.title }}
 	</h2>
+	<hr>
 </div>
 <div>
 {{ page.content }}
