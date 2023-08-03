@@ -4,18 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build:11ty": "npx @11ty/eleventy",
-    "build:tailwind": "npx tailwindcss -i ./src/css/tailwind.css -o ./public/css/tailwind.css --minify",
-    "dev:11ty": "npx @11ty/eleventy --serve",
-    "dev:tailwind": "npx tailwindcss -i ./src/css/tailwind.css -o ./public/css/tailwind.css --watch",
-    "serve": "npm-run-all --parallel dev:*",
-    "build": "npm-run-all --parallel build:*"
+    "build": "npx @11ty/eleventy",
+    "serve": "npx @11ty/eleventy --serve",
   },
   "author": "UM iGEM Team",
   "license": "ISC",
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1",
-    "npm-run-all": "^4.1.5",
-    "tailwindcss": "^3.3.2"
   }
 }

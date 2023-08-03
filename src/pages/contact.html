@@ -3,19 +3,23 @@ title: "Contact"
 position: "6"
 ---
 
+<div class="mb-3">
+  Our student leaders will reach out to you directly.
+</div>
+
 <form name="contact" method="POST" netlify>
   <input type="hidden" name="subject" value="New Contact from iGEM Team Site">
-  <div class="mb-3">
-    <label for="nameInput" >Name</label>
-    <input type="text" class="form-control" name="name" id="nameInput" class="form-text" />
+  <div class="mb-3 form-floating">
+    <input class="form-control" type="text" name="name" id="nameInput" placeholder="" />
+    <label for="nameInput">Name</label>
   </div>
-  <div class="mb-3">
-    <label for="emailInput">Email</label>
-    <input class="form-control" type="email" name="email" class="form-text" placeholder="name@example.com" id="emailInput" />
+  <div class="mb-3 form-floating">
+    <input class="form-control" type="email" name="email" placeholder="name@example.com" id="emailInput" />
+    <label for="emailInput">Email Address</label>
   </div>
-  <div class="mb-3">
+  <div class="mb-3 form-floating">
+    <textarea name="message" rows="3" class="form-control" id="messageInput" placeholder="" style="height: 6em"></textarea>
     <label for="messageInput">Message</label>
-    <textarea name="message" rows="3" class="form-control" id="messageInput"></textarea>
   </div>
   <div>
     <button type="submit" class="btn btn-primary">Send</button>
