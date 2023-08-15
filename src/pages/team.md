@@ -3,4 +3,4 @@ title: "Team"
 position: "2"
 ---
 
-We are a group of 30 top students at the University of Manitoba in the heart of Canada. Our members come from different departments and faculties such as biology, chemistry, sociology, and others. We are divided into three subgroups; dry lab (computational modelling & website development), wet lab (experimental work) and industry (fundraising & outreach). Our project is overseen by Dr. Nediljko Budisa (Canadian Research Chair in Chemical Synthetic Biology) with guidance from Dr. Lori Wilkinson (Canadian Research Chair in Migration Futures) and Dr. David Levin. (Professor, Department of Biosystems Engineering).
+We are an interdisciplinary group of students at the University of Manitoba. Our members come from departments like Biology, Chemistry, Sociology, Computer Science, and Statistics. We are divided into four subgroups: Dry Lab (computational modelling & website development), Wet Lab (experimental work), Industry (fundraising & outreach), and Human Practices (community engagement).
