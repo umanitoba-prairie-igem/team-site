@@ -13,7 +13,13 @@ PLAnet Zero employs a genetically modified organism that will surface-display PL
 
 PLAnet Zero is overseen by Dr. Nediljko Budisa (Professor, Department of Biochemistry; Canada Research Chair in Synthetic Biology), Dr. David Levin (Professor, Biosystems Engineering), and Dr. Lori Wilkinson (Professor, Department of Sociology; Canadian Research Chair in Migration Futures).
 
-<img src="/assets/iGEM2023_PLANetZero_Logo.png" class="img-fluid"/>
+<div class="container text-center">
+  <div class="row row-cols-3">
+    <img src="/assets/2023-forks-biovator.jpg" class="img-fluid col" />
+    <img src="/assets/planet-zero-logo.png" class="img-fluid col" />
+    <img src="/assets/2023-team-photo.png" class="img-fluid col" />
+  </div>
+</div>
 
 ### 2022 – Zebra Zap
 
@@ -35,4 +41,11 @@ Read more at our 2022 Project Wiki.
   </button>
 </div>
 
-<img src="/assets/2022-team-photo.jpg" class="img-fluid rounded"/>
+<div class="container text-center">
+  <div class="row row-cols-3">
+    <img src="/assets/2022-team-jamboree.jpg" class="img-fluid col" />
+    <img src="/assets/zebra-zap-logo.png" class="img-fluid col" />
+    <img src="./assets/2022-team-photo.jpg" class="img-fluid col" />
+  </div>
+</div>
+
