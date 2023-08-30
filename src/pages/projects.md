@@ -21,6 +21,12 @@ PLAnet Zero is overseen by Dr. Nediljko Budisa (Professor, Department of Biochem
   </div>
 </div>
 
+<div class="d-grid gap-2 col-6 mx-auto py-4">
+  <button class="btn btn-primary btn-lg" href="https://2023.igem.wiki/umanitoba/">
+    2023 Project Wiki
+  </button>
+</div>
+
 ### 2022 – Zebra Zap
 
 Prairie iGEM's 2022 project is the design of a smart bio-based device to control the spread of zebra mussels. Zebra mussels are an invasive species in lakes across Manitoba that harm local biodiversity and cause damage to infrastructure.
@@ -35,12 +41,6 @@ This project was awarded a Silver Medal at the 2022 iGEM Grand Jamboree in Paris
 
 Read more at our 2022 Project Wiki.
 
-<div class="d-grid gap-2 col-6 mx-auto pb-4">
-  <button class="btn btn-primary btn-lg" href="https://2022.igem.wiki/umanitoba/">
-    2022 Project Wiki
-  </button>
-</div>
-
 <div class="container text-center">
   <div class="row row-cols-3">
     <img src="/assets/2022-team-jamboree.jpg" class="img-fluid col" />
@@ -49,3 +49,8 @@ Read more at our 2022 Project Wiki.
   </div>
 </div>
 
+<div class="d-grid gap-2 col-6 mx-auto py-4">
+  <button class="btn btn-primary btn-lg" href="https://2022.igem.wiki/umanitoba/">
+    2022 Project Wiki
+  </button>
+</div>
