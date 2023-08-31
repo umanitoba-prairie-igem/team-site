@@ -22,9 +22,11 @@ PLAnet Zero is overseen by Dr. Nediljko Budisa (Professor, Department of Biochem
 </div>
 
 <div class="d-grid gap-2 col-6 mx-auto py-4">
-  <button class="btn btn-primary btn-lg" href="https://2023.igem.wiki/umanitoba/">
-    2023 Project Wiki
-  </button>
+  <a href="https://2023.igem.wiki/umanitoba/">
+    <button class="btn btn-primary btn-lg container">
+      2023 Project Wiki
+    </button>
+  </a>
 </div>
 
 ### 2022 – Zebra Zap
@@ -50,7 +52,9 @@ Read more at our 2022 Project Wiki.
 </div>
 
 <div class="d-grid gap-2 col-6 mx-auto py-4">
-  <button class="btn btn-primary btn-lg" href="https://2022.igem.wiki/umanitoba/">
-    2022 Project Wiki
-  </button>
+  <a href="https://2022.igem.wiki/umanitoba/">
+    <button class="btn btn-primary btn-lg container">
+      2022 Project Wiki
+    </button>
+  </a>
 </div>
