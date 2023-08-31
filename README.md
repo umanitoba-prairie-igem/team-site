@@ -7,14 +7,14 @@
 
 ```
 npm install
-npm run serve
+npm run dev
 ```
 
 This installs all dependencies and runs a hot-reloading web server in your terminal. Go to `localhost:8080` in your browser to see the site.
 
-To run the development server, use just `npm run serve`. To fully build the site into HTML for production, use `npm run build`. To see all project scripts, use `npm run`.
+To run the development server, use just `npm run dev`. To fully build the site into HTML for production, use `npm run build`. To see all project scripts, use `npm run`.
 
-`npm run serve` also runs the TailwindCSS CLI in watch mode, which means Tailwind classes work properly in development. You'll see Tailwind updating the built CSS as you work, since Tailwind only injects the classes we use and leaves out the rest.
+Output from `npm run build` goes into `public/`.
 
 ## Project Structure
 
@@ -22,20 +22,14 @@ All our source files live in `src`. Here's the structure of that:
 
 ```
 src
+├── index.html          # main page
 ├── _includes
-│   ├── base.html               # base template for all pages
+│   ├── base.html       # template of main page
 │   └── footer.html
-├── assets                      # images go in this folder
-│   └── prairie-igem-logo.png
+├── assets              # images
+│   ├── ...
 ├── css
-│   ├── style.css
-│   └── tailwind.css
-├── index.md                    # main landing page
-└── pages                       # all other pages go in this folder
-    ├── About.md
-    ├── Contact.md
-    ├── Resources.md
-    └── pages.json
+│   └── style.css       # custom css file
+└── pages
+    ├── ...             # content of each section of main page
 ```
-
-Output from `npm run build` goes into `public/`.
